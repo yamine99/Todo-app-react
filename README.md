@@ -65,7 +65,3 @@
           
   #### Étape 3 
              Lancer l'application avec un `npm start`
-  
-### Tests unitaires
-            Pour lancer les tests unitaires c'est avec un  `npm test`
-   
