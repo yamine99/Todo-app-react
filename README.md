@@ -1,7 +1,14 @@
 # Todo Application
 
 
-## Mode d'emploi
+## Les Fonctionnalités de l'application
+      - Filterage sur le type 
+      - Trier par date de création
+      - Filterage sur les todos éffectuer
+      - Rénisialtiser les filters
+      - Consulter les détailes d'un todo
+      - Editer l'état d'un todo
+
 
 Cette application utilise
 
@@ -14,4 +21,3 @@ Cette application utilise
 
 
 ### `npm test`
-
