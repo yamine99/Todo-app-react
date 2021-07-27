@@ -10,7 +10,7 @@
       - Editer l'état d'un todo
 
 
-###### Architecture
+#### Architecture
      
      App
            TodoPage
@@ -31,7 +31,7 @@
 
 
 
-###### Solution     
+#### Solution     
             - Le hook useReducer pour répondre à la contarainte des différents comportement de l'objet :
                                     - Rénisialiser
                                     - Filtrer - Type 
