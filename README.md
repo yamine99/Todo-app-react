@@ -1,14 +1,33 @@
 # Todo Application version 1.0
+
 ### Spécificité fonctionnelle
+      - Affichage de la liste de todo
       - Filterage sur le type 
       - Trier par date de création
       - Filterage sur les todos éffecuer
       - Rénisialtiser les filters
       - Consulter les détailes d'un todo
       - Editer l'état d'un todo
-      
-      
 
+
+#####Comment l'application est composé
+     
+     App
+           TodoPage
+                  Filter table 
+                        CheckboxWithLabel
+                        ButtonFilters (liste des types)
+                        ButtonFilters (Croissant/ décroissant)
+                        Button    (Rénisialiser)
+                  Table
+                        itemRow
+                                CheckboxWithLabel
+                                Button : `permet de cosulter un todo`
+                                ButtonEditer : `permet de changer l'état d'un todo`
+
+           TodoDétailPage
+                        liste ul
+                        Button retour
 
 ### Pré-requis
       - Node V 12     
