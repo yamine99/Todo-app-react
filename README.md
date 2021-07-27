@@ -32,7 +32,7 @@
 
 
 ###### Solution
-     J'ai utlisé :
+     *J'ai utlisé :
             - Le hook useReducer pour répondre à la contarainte des différents comportement de l'objet :
                                     - Rénisialiser
                                     - Filtrer - Type 
