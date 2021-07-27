@@ -21,9 +21,9 @@
                         Button    (Rénisialiser)
                   Table
                         itemRow
-                                CheckboxWithLabel
-                                Button : `permet de cosulter un todo`
-                                ButtonEditer : `permet de changer l'état d'un todo`
+                                CheckboxWithLabel - Catégorie business
+                                Button    - permet de cosulter un todo
+                                ButtonEditer  - permet de changer l'état d'un todo
 
            TodoDétailPage
                         liste ul
@@ -31,8 +31,7 @@
 
 
 
-###### Solution
-     * J'ai utlisé :
+###### Solution     
             - Le hook useReducer pour répondre à la contarainte des différents comportement de l'objet :
                                     - Rénisialiser
                                     - Filtrer - Type 
@@ -43,6 +42,7 @@
                                     
             - Patager l'état de l'objet avec tous les coposants de l'application  avec les contextes
             - Navigation entre les deux page avec react-Router
+            - Intergir avec l'api avec Applo/client
             
        
 ### Pré-requis
