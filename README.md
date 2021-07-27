@@ -26,8 +26,9 @@
           - Placez vous dans le dossier projet cloner
           - Installer les dépendences de l'application avec la commande  `npm install`
           
-  #### Étape 3  lancer l'application avec un `npm start`
+  #### Étape 3 
+             Lancer l'application avec un `npm start`
   
 ### Tests unitaires
-pour lancer les tests unitaires c'est avec un  `npm test`
+            Pour lancer les tests unitaires c'est avec un  `npm test`
    
