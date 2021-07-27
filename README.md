@@ -11,7 +11,7 @@
       - Editer l'état d'un todo
 
 
-#### Architecture des deux vues
+#### l des deux vues
      
      App
            TodoPage
@@ -43,7 +43,7 @@
                                     
             - Patager l'état de l'objet avec tous les coposants de l'application  avec les contextes
             - Navigation entre les deux page avec react-Router
-            - Intergir avec l'api avec Applo/client
+            - Intergir avec l'api avec les hooks useQuery et useMutation
             
        
 ### Pré-requis
