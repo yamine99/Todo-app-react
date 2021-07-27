@@ -11,7 +11,7 @@
       - Editer l'état d'un todo
 
 
-#### Architecture
+#### Architecture des deux vues
      
      App
            TodoPage
