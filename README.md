@@ -3,6 +3,7 @@
 ### Spécificité fonctionnelle
       - Affichage de la liste de todo
       - Filterage sur le type 
+      - Filterage par catégorie(Business) 
       - Trier par date de création
       - Filterage sur les todos éffecuer
       - Rénisialtiser les filters
