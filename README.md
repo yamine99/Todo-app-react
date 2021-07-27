@@ -33,7 +33,7 @@
 
 
 #### Solution     
-            - Le hook useReducer pour répondre à la contarainte des différents comportement de l'objet :
+            - Le hook useReducer répond à la contarainte des différents comportement de l'objet :
                                     - Rénisialiser
                                     - Filtrer - Type 
                                               - Order
