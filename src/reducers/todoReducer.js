@@ -26,7 +26,7 @@ export function  todoReducer (state, action)
                          return {...state, titleState:action.payload,  isNotDoneOnly:false, isDoneOnly:true}
                                  
                case 'notDone' : 
-                          return {...state, titleState:action.payload,isDoneOnly:false, isNotDoneOnly:true}
+                          return {...state, titleState:action.payload, isDoneOnly:false, isNotDoneOnly:true}
                   
                 case 'businessType': 
                          if(action.payload==="Business")

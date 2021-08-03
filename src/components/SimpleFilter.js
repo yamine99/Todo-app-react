@@ -6,7 +6,7 @@ function SimpleFilter({listFilters, name, onChangeSimpleFilter, filter}) {
    
        return (<div className="col">
 
-                <select className="form-select btn-success"  id={filter}
+                <select className="form-select  btn-success"  id={filter}
                         value = {filter} onChange={onChangeSimpleFilter}  >
                        
                            <option disabled > {name} </option>

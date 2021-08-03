@@ -12,64 +12,64 @@ import SimpleFilter from '../SimpleFilter';
 
 function FilterTable( ){
 
-  const todoContext= useContext(TodoContext)
-  const LIST_CATEGORIE= ["Business", "Autres"]
-  const LIST_STATE_TODO= ["éffectuer", "Non éffectuer"]
+                const todoContext= useContext(TodoContext)
+                const LIST_CATEGORIE= ["Business", "Autres"]
+                const LIST_STATE_TODO= ["éffectuer", "Non éffectuer"]
 
-  
- 
-     const onChangeFilter= (e)=> 
-        {
-                if( e.target.id==="Ordre")
-                {
-                    todoContext.todoDispatch({
-                                                type:"orderChange",
-                                                payload:e.target.value 
-                                                }) 
-                } 
-                else
-                {
-                    todoContext.todoDispatch({
-                                                type:"filterTypeChange", 
-                                                payload:e.target.value 
-                                                }) 
-                }
-      }
+                
+                
+                    const onChangeFilter= (e)=> 
+                        {
+                                if( e.target.id==="Ordre")
+                                {
+                                    todoContext.todoDispatch({
+                                                                type:"orderChange",
+                                                                payload:e.target.value 
+                                                                }) 
+                                } 
+                                else
+                                {
+                                    todoContext.todoDispatch({
+                                                                type:"filterTypeChange", 
+                                                                payload:e.target.value 
+                                                                }) 
+                                }
+                    }
 
-     
-     const onChangeCategorie= (e)=> 
-        {
-                if( e.target.id==="Categorie")
-                {
-                    todoContext.todoDispatch({ type:"businessType",
-                                                payload:e.target.value 
-                                                }) 
-                } 
-                else
-                {
-                    todoContext.todoDispatch({
-                                                type:"businessType", 
-                                                payload:e.target.value 
-                                                }) 
-                }
-      }
+                    
+                    const onChangeCategorie= (e)=> 
+                        {
+                                if( e.target.id==="Categorie")
+                                {
+                                    todoContext.todoDispatch({ type:"businessType",
+                                                                payload:e.target.value 
+                                                                }) 
+                                } 
+                                else
+                                {
+                                    todoContext.todoDispatch({
+                                                                type:"businessType", 
+                                                                payload:e.target.value 
+                                                                }) 
+                                }
+                    }
 
-      const onChangeDone= (e)=> 
-      {
-              if( e.target.id==="Non éffectuer")
-              {
-                  todoContext.todoDispatch({ type:"notDone",
-                                              payload:e.target.value 
-                                              }) 
-              } 
-              else
-              {
-                  todoContext.todoDispatch({
-                                              type:"done", 
-                                              payload:e.target.value 
-                                              }) 
-              }
-    }
+                    const onChangeDone= (e)=> 
+                    {
+                            if( e.target.id==="Non éffectuer")
+                            {
+                                todoContext.todoDispatch({ type:"notDone",
+                                                            payload:e.target.value 
+                                                            }) 
+                            } 
+                            else
+                            {
+                                todoContext.todoDispatch({
+                                                            type:"done", 
+                                                            payload:e.target.value 
+                                                            }) 
+                            }
+                    }
 
      
 
