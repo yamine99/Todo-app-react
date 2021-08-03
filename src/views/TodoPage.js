@@ -10,11 +10,11 @@ import FilterTable from '../components/formTable/FilterTable';
 
 function TodoPage() { 
 
-  return (  <div className="container mt-4">   
-                <FilterTable />  
-                <Table/>
-            </div>
-  );
+    return (  <div className="container mt-4">   
+                  <FilterTable />  
+                  <Table/>
+              </div>
+    );
 }
 
 

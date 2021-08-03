@@ -11,24 +11,7 @@
       - Editer l'état d'un todo
 
 
-#### Architecture des deux vues
-     
-     App
-           TodoPage
-                  Filter table
-                        CheckboxWithLabel
-                        ButtonFilters (liste des types)
-                        ButtonFilters (Croissant/ décroissant)
-                        Button    (Réinitialiser)
-                  Table
-                        itemRow
-                                CheckboxWithLabel - Catégorie business
-                                Button    - permet de consulter un todo
-                                ButtonEditer  - permet de changer l'état d'un todo
 
-           TodoDétailPage
-                        liste ul
-                        Button retour
 
 
 
