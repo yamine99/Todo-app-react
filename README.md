@@ -18,10 +18,10 @@
 #### Solution     
             - Le hook useReducer répond à la contrainte des différents comportement de l'objet :
                                     - Réinitialiser
-                                    - Filtrer pa: - Type
-                                                  - Order
-                                                  - effectuer
-                                                  - Catégorie business
+                                    - Filtrer par: - Type
+                                                    - Order
+                                                     - état de la todo
+                                                     - Catégorie business
                                     - Retour à la page Todo
                                     
             - Patager l'état de l'objet avec tous les composants de l'application  avec les contextes
