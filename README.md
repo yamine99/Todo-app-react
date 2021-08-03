@@ -15,19 +15,6 @@
 
 
 
-#### Solution     
-            - Le hook useReducer répond à la contrainte des différents comportement de l'objet :
-                                    - Réinitialiser
-                                    - Filtrer par: - Type
-                                                    - Order
-                                                     - état de la todo
-                                                     - Catégorie business
-                                    - Retour à la page Todo
-                                    
-            - Patager l'état de l'objet avec tous les composants de l'application  avec les contextes
-            - Navigation entre les deux page avec react-Router
-            - Interagir avec l'api avec les hooks useQuery et useMutation
-            
        
 ### Pré-requis
       - Node V 12     
